@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 PORT=443
-APPNAME=udacity-project2-app
+APPNAME=mennt1-udacity-project2-app
 echo "Port: $PORT"
 echo "App Name: $APPNAME"
 

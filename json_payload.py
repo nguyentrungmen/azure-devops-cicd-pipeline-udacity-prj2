@@ -16,7 +16,7 @@ def json_payload():
     jsonData = json.dumps(payload)
     print(jsonData)
 
-    response = requests.post('https://udacity-project2-app.azurewebsites.net:443/predict',
+    response = requests.post('https://mennt1-udacity-project2-app.azurewebsites.net:443/predict',
                              json=payload)
 
     print("Status code: ", response.status_code)

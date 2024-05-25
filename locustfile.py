@@ -5,11 +5,11 @@ from locust import HttpUser, task, between
 class MyUser(HttpUser):
     wait_time = between(3, 5)
 
-    host = "https://udacity-project2-app.azurewebsites.net:443"
+    host = "https://mennt1-udacity-project2-app.azurewebsites.net:443"
 
     @task(1)
     def hello_world(self):
-        self.client.get("https://udacity-project2-app.azurewebsites.net")
+        self.client.get("https://mennt1-udacity-project2-app.azurewebsites.net")
   
     @task(2)
     def predict(self):
