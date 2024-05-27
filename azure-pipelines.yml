@@ -14,7 +14,7 @@ variables:
   webAppName: 'mennt1-udacity-project2-app'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'win-latest'
 
   # Environment name
   environmentName: 'mennt1-udacity-project2-app'
