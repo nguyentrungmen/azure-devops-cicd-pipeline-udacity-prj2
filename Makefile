@@ -1,5 +1,5 @@
 setup:
-	python3 -m venv ~/.udacity-project02
+	python3 -m venv ~/.azure-devops-cicd-pipeline-udacity-prj2
 
 install:
 	pip install --upgrade pip &&\
