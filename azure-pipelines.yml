@@ -69,6 +69,7 @@ stages:
   - deployment: DeploymentJob
     pool:
       vmImage: $(vmImageName)
+      name: win-latest
     environment: $(environmentName)
     strategy:
       runOnce:
